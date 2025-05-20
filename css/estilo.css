@@ -1,3 +1,13 @@
+body {
+  color: white;
+  background-color: black
+  ;
+}
+
+
+
+
+
 .invisivel{
     display:none;
   }
@@ -5,12 +15,12 @@
     display:inline;
   }
   .inicial {
+    color: aliceblue;
     text-align: center;
-    font-size: 100px;
-    background-color: lightgrey;
+    background-color: rgb(19, 23, 243);
     width: 150px;
     height: 200px;
-    border: 15px solid green;
+    border: 15px solid rgb(224, 10, 243);
     padding: 10px;
     margin: 20px;
   }
@@ -26,7 +36,6 @@
   }
   .errou {
     text-align: center;
-    font-size: 100px;
     color: white;
     background-color: red;
     width: 150px;
