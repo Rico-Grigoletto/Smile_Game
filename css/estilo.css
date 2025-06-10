@@ -6,8 +6,33 @@ body {
 
 
 
+h5{ text-align: center;}
 
 
+
+h6{ color: white;
+font-size: 18px;
+font-family: cursed;
+position: absolute ;
+bottom: 5px;
+right: 20px;
+
+
+
+}
+
+h7{ color: white;
+font-size: 20px;
+font-family: cursed;
+ 
+}
+@font-face {
+  font-family:cursed ;
+  src: url(../daisybud_script/DaisybudScript.otf);
+}
+
+h1 {text-align: center;}
+p  {text-align: center;}
 .invisivel{
     display:none;
   }

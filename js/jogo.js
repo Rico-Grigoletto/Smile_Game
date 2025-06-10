@@ -62,7 +62,7 @@ function acertou(obj) {
   const img = new Image(100);
   img.id = "imagem";
   //altera o atributo src (source) da imagem criada
-  img.src = "https://media.tenor.com/IVh7YxGaB_4AAAAM/nerd-emoji.gif";
+  img.src = "https://i1.sndcdn.com/artworks-k1UFwwzHPwZ4RSnE-ZWxOWw-t500x500.jpg";
   //adiciona a imagem criada na div (obj) escolhida pelo jogador (appendChild)
   obj.appendChild(img);
 }
@@ -98,6 +98,19 @@ function verifica(obj) {
       //chama a funçao acertou para mostrar a div aonde está o Smile
       acertou(objSorteado);
     }
+    
+//funçao executada quando o jogador erra
+function errou (obj) {
+ 
+  obj.className = "errou";
+
+  const img = new Image(100);
+  img.id = "imagem";
+  //altera o atributo src (source) da imagem criada
+  img.src = "https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/66b3ea6b437be789ded213fd_45.png";
+  //adiciona a imagem criada na div (obj) escolhida pelo jogador (appendChild)
+  obj.appendChild(img);
+}
     //chama a funçao que atualiza o placar
     atualizaPlacar(acertos, tentativas);
   } else {//se o jogador clicar em outra carta sem reiniciar o jogo, recebe um alerta
